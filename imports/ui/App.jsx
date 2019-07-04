@@ -17,7 +17,7 @@ const App = (props) => {
   }
   return (
     <div>
-      <h1>Welcome to Meteor1234!</h1>
+      <h1>Welcome to Meteors!</h1>
       <img src="/kv-1-m.jpg" />
       { renderLinks() }
       <br /><br />
