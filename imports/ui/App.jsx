@@ -1,6 +1,7 @@
 import { Meteor } from "meteor/meteor";
 import { withTracker } from 'meteor/react-meteor-data';
 import React from 'react';
+import { Link } from 'react-router-dom';
 import Links from "../api/links";
 
 const App = (props) => {
@@ -16,9 +17,11 @@ const App = (props) => {
   }
   return (
     <div>
-      <h1>Welcome to Meteor!</h1>
+      <h1>Welcome to Meteor1234!</h1>
       <img src="/kv-1-m.jpg" />
       { renderLinks() }
+      <br /><br />
+      <Link to="/about">About</Link>
     </div>
   )
 };
