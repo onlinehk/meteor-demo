@@ -19,6 +19,7 @@ const App = (props) => {
     <div>
       <h1>Welcome to Meteors!</h1>
       <img src="/kv-1-m.jpg" />
+      <br /><br />
       { renderLinks() }
       <br /><br />
       <Link to="/about">About</Link>
